@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "345275118528",
+    "firebase_url": "https://festival-13bd8.firebaseio.com",
+    "project_id": "festival-13bd8",
+    "storage_bucket": "festival-13bd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345275118528:android:3e437436729090a3",
+        "android_client_info": {
+          "package_name": "com.diegocasas.festival"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345275118528-qcnpl4ifonp220glohuogc2ooagu9v0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.diegocasas.festival",
+            "certificate_hash": "959f53a0e309a65719b35667f1545bb2b63a90c0"
+          }
+        },
+        {
+          "client_id": "345275118528-a5tlmrpu32jac221pnv1esi7ik06ote1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-DESvFq0BwDvdPG0CRz27jDdFWkzvuyE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345275118528-a5tlmrpu32jac221pnv1esi7ik06ote1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

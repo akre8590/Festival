@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Festival</string>
+    <string name="title_activity_singin_activity">Sign in</string>
+
+    <string name="email_id">Email ID</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="failed">Falló la autenticación</string>
+    <string name="image">Imagen</string>
+    <string name="create_a_new_account">Crear una nueva cuenta!</string>
+
+</resources>
