@@ -8,5 +8,7 @@
     <string name="failed">Falló la autenticación</string>
     <string name="image">Imagen</string>
     <string name="create_a_new_account">Crear una nueva cuenta!</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
 
 </resources>
