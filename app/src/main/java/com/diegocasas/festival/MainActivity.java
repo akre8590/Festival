@@ -62,16 +62,19 @@ public class MainActivity extends AppCompatActivity {
                 {
                     case R.id.account:
                         Toast.makeText(MainActivity.this, "My Account",Toast.LENGTH_SHORT).show();
+                        return true;
                     case R.id.settings:
                         Toast.makeText(MainActivity.this, "Settings",Toast.LENGTH_SHORT).show();
+                        return true;
                     case R.id.mycart:
                         Toast.makeText(MainActivity.this, "My Cart",Toast.LENGTH_SHORT).show();
+                        return true;
                     case R.id.sesion:
                         mAuth.signOut();
+                        return true;
                     default:
                         return true;
                 }
-
             }
         });
     }
