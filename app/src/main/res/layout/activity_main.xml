@@ -28,7 +28,8 @@
                 android:clickable="true"
                 android:layout_width="160dp"
                 android:layout_height="190dp"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="Ribbon">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -38,14 +39,14 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:background="@drawable/cerclebackgroundpurple"
-                        android:src="@drawable/ic_attach_money_black_24dp"
+                        android:src="@drawable/ic_assignment_black_24dp"
                         android:padding="10dp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textStyle="bold"
                         android:layout_margin="10dp"
-                        android:text="Banco"/>
+                        android:text="Programa"/>
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
@@ -55,7 +56,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Revisa tu actividad bancaria"
+                        android:text="Revisa el programa del festival"
                         android:padding="5dp"
                         android:textColor="@android:color/darker_gray"/>
                 </LinearLayout>
@@ -129,7 +130,7 @@
                         android:layout_height="wrap_content"
                         android:textStyle="bold"
                         android:layout_margin="10dp"
-                        android:text="Add"/>
+                        android:text="Añadir"/>
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
@@ -139,7 +140,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Revisa tu actividad bancaria"
+                        android:text="Añade un evento a tu calendario "
                         android:padding="5dp"
                         android:textColor="@android:color/darker_gray"/>
                 </LinearLayout>

@@ -88,4 +88,8 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void Ribbon(View view){
+        Intent intent = new Intent(MainActivity.this, Programa.class);
+        startActivity(intent);
+    }
 }

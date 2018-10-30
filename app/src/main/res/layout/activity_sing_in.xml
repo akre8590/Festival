@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
+    android:id="@+id/sing_in"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/ic_background_sing">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,7 +24,8 @@
             android:minHeight="0dp"
             android:minWidth="0dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/images" />
+            android:src="@drawable/festival"
+            android:layout_marginBottom="40dp"/>
 
 
         <EditText
@@ -32,7 +35,7 @@
             android:layout_marginBottom="10dp"
             android:hint="@string/email_id"
             android:inputType="textEmailAddress"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/darker_gray"
             android:textColorHint="@android:color/darker_gray" />
 
 
@@ -43,7 +46,7 @@
             android:layout_marginBottom="10dp"
             android:hint="@string/password"
             android:inputType="textPassword"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/darker_gray"
             android:textColorHint="@android:color/darker_gray" />
 
         <!-- Login Button -->
@@ -62,6 +65,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
+            android:textColor="#FFFFFF"
             android:background="@null"
             android:text="@string/create_a_new_account"
             android:textAllCaps="false"

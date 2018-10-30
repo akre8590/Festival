@@ -26,11 +26,14 @@ public class SingUpActivity extends AppCompatActivity {
     private static final String TAG = "";
     private ProgressBar progressBar;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sing_up);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         TextView btnSignUp = (TextView) findViewById(R.id.login_page);
 
@@ -95,5 +98,10 @@ public class SingUpActivity extends AppCompatActivity {
                         });
             }
         });
+    }
+    @Override
+    public boolean onSupportNavigateUp(){
+        finish();
+        return true;
     }
 }
