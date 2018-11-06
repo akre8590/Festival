@@ -1,10 +1,12 @@
 package com.diegocasas.festival;
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
 import com.diegocasas.festival.Adapter.CustomAdapter;
 import com.diegocasas.festival.Model.Item;
@@ -51,5 +53,10 @@ public class Programa extends AppCompatActivity {
 
         adapter = new CustomAdapter(this, items);
         recyclerView.setAdapter(adapter);
+    }
+
+    public void evento(View view){
+        Intent intent = new Intent(Programa.this, Evento.class);
+        startActivity(intent);
     }
 }
