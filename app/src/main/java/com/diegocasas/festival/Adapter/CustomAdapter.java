@@ -75,6 +75,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomViewHolder> {
             holder.ribbonLayout.setShowBottom(false);
             holder.ribbonLayout.setShowBottom(false);
 
+
             Picasso.get().load(item.imageURL).into(holder.imageView);
         }
     }
